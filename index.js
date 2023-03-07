@@ -185,8 +185,7 @@ function scoreboard(getInningsCallback, inningCallback, inningsNumber) {
   else if (awayTotal == homeTotal) {
     scoreArray[inningsNumber + 1] = `This game will require extra innings: Away ${awayTotal} - Home ${homeTotal}`;
   }
-  console.log('home', homeTotal);
-  console.log('away', awayTotal);
+  
   return scoreArray;
   
 
